@@ -1,0 +1,28 @@
+.appContainer {
+  border: 2px solid blue;
+  min-height: 10vh;
+  width: 100%;
+  display: grid;
+  margin-bottom: 50px;
+  place-items: center;
+  color: blue;
+  .useStateContainer {
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    p {
+      text-align: center;
+      margin-top: 20px;
+    }
+    margin-top: 10px;
+    margin-bottom: 20px;
+    button {
+      display: block;
+      &:nth-child(3) {
+        margin-top: 20px;
+        // border: 3px solid red;
+      }
+    }
+  }
+}
